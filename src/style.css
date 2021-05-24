@@ -42,11 +42,12 @@ form {
     text-align: right;
   }
   
-  input,
+  
   textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
     font: 1em sans-serif;
+    
   
     /* Uniform text field size */
     width: 300px;
@@ -71,12 +72,19 @@ form {
   }
   
   .button {
+    
     /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
+    padding-left: 0px 100px 0px; /* same size as the label elements */
   }
   
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
-    margin-left: .5em;
+    margin-left: 100px;
+  }
+
+  input {
+    margin-left: 200px;
+    position: center;
+    
   }
